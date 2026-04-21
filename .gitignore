@@ -1,19 +1,11 @@
-# WordPress Essentials
-wp-config.php
-wp-content/uploads/
-wp-content/blogs.dir/
-wp-content/upgrade/
-wp-content/backup-db/
-wp-content/cache/
-wp-content/advanced-cache.php
-wp-content/wp-cache-config.php
-wp-content/object-cache.php
-.htaccess
-*.log
-
-# Project
-/vendor/
+**/node_modules/
+**/.next/
+**/dist/
+**/build/
+.env
 .idea/
 .vscode/
+*.log
 *.zip
 *.rar
+.DS_Store

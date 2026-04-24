@@ -1,0 +1,159 @@
+{
+  "content": [
+    {
+      "id": "tt_arch_hero",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "stretch_section": "section-full-width",
+        "height": "min-height",
+        "custom_height": {"unit": "vh", "size": 45},
+        "background_background": "classic",
+        "background_color": "#0D1B2A",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "rgba(13,27,42,0.7)",
+        "content_position": "middle",
+        "css_classes": "tt-hero"
+      },
+      "elements": [
+        {
+          "id": "tt_arch_hero_c",
+          "elType": "column",
+          "settings": {"_column_size": 100, "align": "center"},
+          "elements": [
+            {
+              "id": "tt_arch_h1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nuestros Proyectos",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": {"unit": "px", "size": 48},
+                "typography_font_weight": "700"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_arch_sub",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "DISEÑO Y EXCLUSIVIDAD EN EL EXTERIOR",
+                "header_size": "p",
+                "align": "center",
+                "title_color": "rgba(255,255,255,0.7)",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": {"unit": "px", "size": 14},
+                "typography_font_weight": "500",
+                "typography_letter_spacing": {"unit": "px", "size": 3}
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tt_arch_grid",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {"unit": "px", "size": 1200},
+        "padding": {"unit": "px", "top": "60", "right": "20", "bottom": "80", "left": "20"},
+        "background_background": "classic",
+        "background_color": "#FFFFFF"
+      },
+      "elements": [
+        {
+          "id": "tt_arch_grid_c",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "tt_arch_shortcode",
+              "elType": "widget",
+              "widgetType": "shortcode",
+              "settings": {
+                "shortcode": "[tt_projects_grid per_page=\"9\"]"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tt_arch_cta",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "stretch_section": "section-full-width",
+        "background_background": "classic",
+        "background_color": "#0D1B2A",
+        "padding": {"unit": "px", "top": "80", "right": "40", "bottom": "80", "left": "40"},
+        "css_classes": "tt-cta-section"
+      },
+      "elements": [
+        {
+          "id": "tt_arch_cta_c",
+          "elType": "column",
+          "settings": {"_column_size": 100},
+          "elements": [
+            {
+              "id": "tt_arch_cta_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "¿Preparado para transformar su espacio exterior?",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": {"unit": "px", "size": 32},
+                "typography_font_weight": "700"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_arch_cta_p",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">Consulta con nuestros expertos arquitectos y técnicos para un diseño a medida.</p>",
+                "text_color": "rgba(255,255,255,0.7)"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_arch_cta_btn1",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "CONTACTAR AHORA",
+                "link": {"url": "/contacto/", "is_external": false},
+                "align": "center",
+                "background_color": "#2563EB",
+                "button_text_color": "#FFFFFF",
+                "border_radius": {"unit": "px", "top": "6", "right": "6", "bottom": "6", "left": "6"},
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Tecnoterrazas - Proyectos Archive",
+  "type": "page"
+}

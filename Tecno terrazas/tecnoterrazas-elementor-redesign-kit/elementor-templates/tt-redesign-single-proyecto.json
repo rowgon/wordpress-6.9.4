@@ -1,0 +1,232 @@
+{
+  "content": [
+    {
+      "id": "tt_rd_single_gallery",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "stretch_section": "section-full-width",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        },
+        "css_classes": "tt-rd-page"
+      },
+      "elements": [
+        {
+          "id": "tt_rd_single_gallery_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "tt_rd_single_gallery_sc",
+              "elType": "widget",
+              "widgetType": "image-carousel",
+              "settings": {
+                "carousel_images": [
+                  {
+                    "url": "https://via.placeholder.com/800x600",
+                    "id": ""
+                  },
+                  {
+                    "url": "https://via.placeholder.com/800x600",
+                    "id": ""
+                  },
+                  {
+                    "url": "https://via.placeholder.com/800x600",
+                    "id": ""
+                  }
+                ],
+                "image_size": "full",
+                "slides_to_show": "1",
+                "navigation": "arrows"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tt_rd_single_content",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "50",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "tt_rd_single_main",
+          "elType": "column",
+          "settings": {
+            "_column_size": 68
+          },
+          "elements": [
+            {
+              "id": "tt_rd_single_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nombre del Proyecto",
+                "header_size": "h1",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_weight": "bold",
+                "css_classes": "tt-rd-single-title"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_single_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Esta es la descripción detallada del proyecto. Aquí puedes explicar los retos, soluciones y el proceso que se llevó a cabo para completar el trabajo.</p>",
+                "css_classes": "tt-rd-single-content"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "tt_rd_single_side",
+          "elType": "column",
+          "settings": {
+            "_column_size": 32
+          },
+          "elements": [
+            {
+              "id": "tt_rd_single_details_sc",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"tt-rd-details-card\">\n    <h3>Detalles del proyecto</h3>\n    <div class=\"tt-rd-detail-item\">\n        <div class=\"tt-rd-detail-label\">Cliente</div>\n        <div class=\"tt-rd-detail-value\">Nombre del Cliente</div>\n    </div>\n    <div class=\"tt-rd-detail-item\">\n        <div class=\"tt-rd-detail-label\">Localización</div>\n        <div class=\"tt-rd-detail-value\">Ubicación de Ejemplo</div>\n    </div>\n    <div class=\"tt-rd-detail-item\">\n        <div class=\"tt-rd-detail-label\">Año</div>\n        <div class=\"tt-rd-detail-value\">2025</div>\n    </div>\n</div>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tt_rd_single_specs",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": "10",
+          "right": "20",
+          "bottom": "70",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "tt_rd_single_specs_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "tt_rd_single_specs_sc",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"tt-rd-specs\">\n    <div class=\"tt-rd-spec-item\">\n        <span class=\"dashicons dashicons-admin-tools\"></span>\n        <div class=\"tt-rd-spec-label\">Servicio</div>\n        <div class=\"tt-rd-spec-value\">Instalación</div>\n    </div>\n    <div class=\"tt-rd-spec-item\">\n        <span class=\"dashicons dashicons-clock\"></span>\n        <div class=\"tt-rd-spec-label\">Tiempo de ejecución</div>\n        <div class=\"tt-rd-spec-value\">4 Semanas</div>\n    </div>\n    <div class=\"tt-rd-spec-item\">\n        <span class=\"dashicons dashicons-editor-expand\"></span>\n        <div class=\"tt-rd-spec-label\">Metros cuadrados</div>\n        <div class=\"tt-rd-spec-value\">6MT2</div>\n    </div>\n    <div class=\"tt-rd-spec-item\">\n        <span class=\"dashicons dashicons-location\"></span>\n        <div class=\"tt-rd-spec-label\">Ubicación</div>\n        <div class=\"tt-rd-spec-value\">Jardín</div>\n    </div>\n    <div class=\"tt-rd-spec-item\">\n        <span class=\"dashicons dashicons-admin-generic\"></span>\n        <div class=\"tt-rd-spec-label\">Tipo</div>\n        <div class=\"tt-rd-spec-value\">Cortina</div>\n    </div>\n</div>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tt_rd_single_contact",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "20",
+          "bottom": "90",
+          "left": "20"
+        },
+        "css_classes": "tt-rd-contact-split"
+      },
+      "elements": [
+        {
+          "id": "tt_rd_single_form_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "tt_rd_single_form_sc",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"tt-rd-form-card\">\n    <h2 class=\"tt-rd-form-title\">Solicita tu presupuesto</h2>\n    <p class=\"tt-rd-form-subtitle\">Sin compromiso. Te responderemos en menos de 24 horas laborables.</p>\n    <form class=\"tt-rd-form\" action=\"/\" method=\"POST\">\n        <div class=\"tt-rd-form-row\">\n            <div class=\"tt-rd-form-group\">\n                <label for=\"tt-rd-nombre\">Nombre</label>\n                <input type=\"text\" id=\"tt-rd-nombre\" name=\"nombre\" placeholder=\"Juan Pérez\" required>\n            </div>\n            <div class=\"tt-rd-form-group\">\n                <label for=\"tt-rd-movil\">Móvil</label>\n                <input type=\"tel\" id=\"tt-rd-movil\" name=\"movil\" placeholder=\"+34 000 000 000\">\n            </div>\n        </div>\n        <div class=\"tt-rd-form-group\">\n            <label for=\"tt-rd-email\">Email</label>\n            <input type=\"email\" id=\"tt-rd-email\" name=\"email\" placeholder=\"tu@email.com\" required>\n        </div>\n        <div class=\"tt-rd-form-group\">\n            <label for=\"tt-rd-desc\">Descripción del proyecto</label>\n            <textarea id=\"tt-rd-desc\" name=\"descripcion\" rows=\"6\" placeholder=\"Medidas aproximadas, ubicación, producto...\"></textarea>\n        </div>\n        <div class=\"tt-rd-form-check\">\n            <label><input type=\"checkbox\" name=\"privacy_policy\" value=\"1\" required> He leído y acepto la Política de Privacidad y el aviso legal.</label>\n        </div>\n        <button type=\"button\" class=\"tt-rd-form-button\" onclick=\"alert('Formulario estático. Debes procesar el envío con tu backend.');\">Solicitar presupuesto gratuito</button>\n    </form>\n</div>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "tt_rd_single_contact_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "tt_rd_single_contact_sc",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"tt-rd-contact-card\">\n    <div class=\"tt-rd-contact-overlay\"></div>\n    <div class=\"tt-rd-contact-inner\">\n        <div class=\"tt-rd-contact-kicker\">Ubícanos</div>\n        <h3>Estamos en Valencia</h3>\n        <ul>\n            <li><span class=\"dashicons dashicons-location\"></span> Calle Alicante, 10 B - 46910 Sedaví, Valencia</li>\n            <li><span class=\"dashicons dashicons-email-alt\"></span> administracion@tecnoterrazas.com</li>\n            <li><span class=\"dashicons dashicons-phone\"></span> 672 634 271</li>\n        </ul>\n    </div>\n</div>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "TT Redesign - Single Proyecto",
+  "type": "page"
+}

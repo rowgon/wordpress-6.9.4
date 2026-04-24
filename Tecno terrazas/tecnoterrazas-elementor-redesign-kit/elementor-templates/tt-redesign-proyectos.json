@@ -1,0 +1,181 @@
+{
+  "content": [
+    {
+      "id": "tt_rd_arch_hero",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "stretch_section": "section-full-width",
+        "height": "min-height",
+        "custom_height": {
+          "unit": "px",
+          "size": 460
+        },
+        "content_position": "middle",
+        "background_background": "classic",
+        "background_color": "#1a2d4e",
+        "css_classes": "tt-rd-page tt-rd-archive-hero"
+      },
+      "elements": [
+        {
+          "id": "tt_rd_arch_hero_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "align": "center"
+          },
+          "elements": [
+            {
+              "id": "tt_rd_arch_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nuestros Proyectos",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 64
+                },
+                "typography_font_weight": "300"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_arch_sub",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">DISENO Y EXCLUSIVIDAD EN EL EXTERIOR</p>",
+                "text_color": "rgba(255,255,255,0.78)",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 4
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tt_rd_arch_grid",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1280
+        },
+        "padding": {
+          "unit": "px",
+          "top": "60",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "tt_rd_arch_grid_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "tt_rd_arch_sc",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"tt-rd-grid-wrapper\" data-tt-rd-grid-wrapper data-per-page=\"9\">\n    <div class=\"tt-rd-filters\" data-tt-rd-filters>\n        <button type=\"button\" class=\"tt-rd-filter-btn is-active\" data-filter=\"todos\">Todos</button>\n        <button type=\"button\" class=\"tt-rd-filter-btn\" data-filter=\"pergolas\">Pérgolas</button>\n        <button type=\"button\" class=\"tt-rd-filter-btn\" data-filter=\"cerramientos\">Cerramientos</button>\n        <button type=\"button\" class=\"tt-rd-filter-btn\" data-filter=\"cortinas\">Cortinas de Cristal</button>\n        <button type=\"button\" class=\"tt-rd-filter-btn\" data-filter=\"techos\">Techos Móviles</button>\n    </div>\n    <div class=\"tt-rd-grid\" data-tt-rd-grid>\n        <!-- Tarjeta de Proyecto 1 -->\n        <article class=\"tt-rd-project-card\">\n            <a href=\"#\" class=\"tt-rd-project-link\">\n                <div class=\"tt-rd-project-image\" style=\"background-image:url('https://via.placeholder.com/600x400')\"></div>\n                <div class=\"tt-rd-project-overlay\"></div>\n                <div class=\"tt-rd-project-info\">\n                    <h3 class=\"tt-rd-project-title\">Proyecto unifamiliar Montserrat</h3>\n                    <span class=\"tt-rd-project-more\">VER PROYECTO →</span>\n                </div>\n            </a>\n        </article>\n        <!-- Tarjeta de Proyecto 2 -->\n        <article class=\"tt-rd-project-card\">\n            <a href=\"#\" class=\"tt-rd-project-link\">\n                <div class=\"tt-rd-project-image\" style=\"background-image:url('https://via.placeholder.com/600x400')\"></div>\n                <div class=\"tt-rd-project-overlay\"></div>\n                <div class=\"tt-rd-project-info\">\n                    <h3 class=\"tt-rd-project-title\">Pérgola & Vista</h3>\n                    <span class=\"tt-rd-project-more\">VER PROYECTO →</span>\n                </div>\n            </a>\n        </article>\n        <!-- Tarjeta de Proyecto 3 -->\n        <article class=\"tt-rd-project-card\">\n            <a href=\"#\" class=\"tt-rd-project-link\">\n                <div class=\"tt-rd-project-image\" style=\"background-image:url('https://via.placeholder.com/600x400')\"></div>\n                <div class=\"tt-rd-project-overlay\"></div>\n                <div class=\"tt-rd-project-info\">\n                    <h3 class=\"tt-rd-project-title\">Pérgola Bioclimática con Iluminación LED</h3>\n                    <span class=\"tt-rd-project-more\">VER PROYECTO →</span>\n                </div>\n            </a>\n        </article>\n        <!-- Tarjeta de Proyecto 4 -->\n        <article class=\"tt-rd-project-card\">\n            <a href=\"#\" class=\"tt-rd-project-link\">\n                <div class=\"tt-rd-project-image\" style=\"background-image:url('https://via.placeholder.com/600x400')\"></div>\n                <div class=\"tt-rd-project-overlay\"></div>\n                <div class=\"tt-rd-project-info\">\n                    <h3 class=\"tt-rd-project-title\">Patio y Luz en Vallterna</h3>\n                    <span class=\"tt-rd-project-more\">VER PROYECTO →</span>\n                </div>\n            </a>\n        </article>\n        <!-- Tarjeta de Proyecto 5 -->\n        <article class=\"tt-rd-project-card\">\n            <a href=\"#\" class=\"tt-rd-project-link\">\n                <div class=\"tt-rd-project-image\" style=\"background-image:url('https://via.placeholder.com/600x400')\"></div>\n                <div class=\"tt-rd-project-overlay\"></div>\n                <div class=\"tt-rd-project-info\">\n                    <h3 class=\"tt-rd-project-title\">Techo fijo con panel autoportante</h3>\n                    <span class=\"tt-rd-project-more\">VER PROYECTO →</span>\n                </div>\n            </a>\n        </article>\n        <!-- Tarjeta de Proyecto 6 -->\n        <article class=\"tt-rd-project-card\">\n            <a href=\"#\" class=\"tt-rd-project-link\">\n                <div class=\"tt-rd-project-image\" style=\"background-image:url('https://via.placeholder.com/600x400')\"></div>\n                <div class=\"tt-rd-project-overlay\"></div>\n                <div class=\"tt-rd-project-info\">\n                    <h3 class=\"tt-rd-project-title\">Tecnología y Confort - Techo Móvil en Los Monasterios</h3>\n                    <span class=\"tt-rd-project-more\">VER PROYECTO →</span>\n                </div>\n            </a>\n        </article>\n    </div>\n    <div class=\"tt-rd-loadmore-wrap\" data-tt-rd-loadmore-wrap>\n        <button type=\"button\" class=\"tt-rd-loadmore\" onclick=\"alert('Debes enlazar esto a una página de archivo.');\">Cargar más proyectos</button>\n    </div>\n</div>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tt_rd_arch_cta",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "stretch_section": "section-full-width",
+        "content_position": "middle",
+        "height": "min-height",
+        "custom_height": {
+          "unit": "px",
+          "size": 340
+        },
+        "background_background": "classic",
+        "background_color": "#1a2d4e",
+        "css_classes": "tt-rd-cta-band"
+      },
+      "elements": [
+        {
+          "id": "tt_rd_arch_cta_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100,
+            "align": "center"
+          },
+          "elements": [
+            {
+              "id": "tt_rd_arch_cta_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "¿Preparado para transformar su espacio exterior?",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 44
+                },
+                "typography_font_weight": "300"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_arch_cta_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"text-align:center;\">Consulte con nuestros expertos arquitectos y tecnicos para un diseno a medida.</p>",
+                "text_color": "rgba(255,255,255,0.78)"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_arch_cta_btns",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"tt-rd-dual-buttons\"><a href=\"/contacto/\">Contactar ahora</a><a href=\"#\">Solicitar dossier</a></div>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "TT Redesign - Proyectos",
+  "type": "page"
+}

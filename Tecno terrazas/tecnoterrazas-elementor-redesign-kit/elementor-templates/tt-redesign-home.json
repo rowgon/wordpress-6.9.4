@@ -1,0 +1,906 @@
+{
+  "content": [
+    {
+      "id": "tt_rd_home_hero",
+      "elType": "section",
+      "settings": {
+        "layout": "full_width",
+        "stretch_section": "section-full-width",
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        },
+        "css_classes": "tt-rd-page tt-rd-split-hero"
+      },
+      "elements": [
+        {
+          "id": "tt_rd_home_hero_media",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "background_background": "classic",
+            "background_color": "#0d172b",
+            "css_classes": "tt-rd-hero-media"
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_hero_img",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image_size": "full",
+                "align": "center"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "tt_rd_home_hero_copy",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "vertical_align": "middle",
+            "padding": {
+              "unit": "px",
+              "top": "90",
+              "right": "70",
+              "bottom": "90",
+              "left": "70"
+            },
+            "css_classes": "tt-rd-hero-copy"
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_hero_kicker",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Arquitectura exterior",
+                "header_size": "div",
+                "css_classes": "tt-rd-kicker tt-rd-hero-kicker"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_home_hero_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Mejor espacio y confort con la <span class=\"tt-rd-accent\">pergola</span> para terraza",
+                "header_size": "h1",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 74
+                },
+                "typography_font_weight": "300",
+                "css_classes": "tt-rd-hero-title"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_home_hero_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Valla de Altea Eco. Disenos exclusivos y soluciones tecnicas para transformar terrazas y jardines.</p>",
+                "text_color": "rgba(255,255,255,0.78)",
+                "_margin": {
+                  "unit": "px",
+                  "top": "10",
+                  "right": "0",
+                  "bottom": "25",
+                  "left": "0"
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_home_hero_btn1",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Ver proyectos reales",
+                "link": {
+                  "url": "/proyectos/",
+                  "is_external": false
+                },
+                "align": "left",
+                "button_text_color": "#1f3f78",
+                "background_color": "#FFFFFF",
+                "css_classes": "tt-rd-outline-btn"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_home_hero_btn2",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Solicitar presupuesto",
+                "link": {
+                  "url": "#tt-form-presupuesto",
+                  "is_external": false
+                },
+                "align": "left",
+                "button_text_color": "#FFFFFF",
+                "background_color": "rgba(255,255,255,0)",
+                "css_classes": "tt-rd-ghost-btn"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tt_rd_home_trayectoria",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "90",
+          "right": "20",
+          "bottom": "90",
+          "left": "20"
+        },
+        "css_classes": "tt-rd-trayectoria"
+      },
+      "elements": [
+        {
+          "id": "tt_rd_home_trayectoria_img_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 38
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_trayectoria_img",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image_size": "full"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "tt_rd_home_trayectoria_copy_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 62,
+            "padding": {
+              "unit": "px",
+              "top": "20",
+              "right": "20",
+              "bottom": "20",
+              "left": "40"
+            }
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_trayectoria_kicker",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Larga trayectoria",
+                "header_size": "div",
+                "css_classes": "tt-rd-kicker"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_home_trayectoria_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "LARGA TRAYECTORIA EN CERRAMIENTOS Y CARPINTERIA METALICA DE ALTA CALIDAD",
+                "header_size": "h2",
+                "css_classes": "tt-rd-editorial-title"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_home_trayectoria_text",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"tt-rd-editorial-grid\"><div class=\"tt-rd-vertical-label\">Tecnoterrazas - Valencia</div><div class=\"tt-rd-editorial-columns\"><p><strong>Bienvenidos a Tecnoterrazas</strong>, contamos con los mejores especialistas para trabajos de cerramientos de espacios y carpinteria con estandares de optima calidad.</p><p>Los anos de trabajo nos han permitido acumular una gran experiencia, consolidando un equipo de expertos dedicados a la excelencia tecnica.</p><p>Pusimos en accion variados proyectos donde se rompen las tendencias predominantes del mercado para beneficiar a los clientes mas exigentes.</p><p>Transformamos espacios segun las tendencias actuales de construccion y decoracion, aportando soluciones duraderas y esteticas.</p><a href=\"/contacto/\" class=\"tt-rd-editorial-link\">Hablar con un especialista</a></div></div>",
+                "css_classes": "tt-rd-editorial-text"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tt_rd_home_services_title",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "20",
+          "bottom": "30",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "tt_rd_home_services_title_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_services_title_widget",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Transformamos tus espacios con soluciones innovadoras",
+                "header_size": "h2",
+                "css_classes": "tt-rd-centered-title"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tt_rd_home_services_row1",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "20",
+          "bottom": "0",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "tt_rd_home_service_1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_service_widget_1",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "title_text": "Pergolas Bioclimaticas",
+                "description_text": "Lamas orientables, maxima adaptacion y sensacion de ligereza contemporanea.",
+                "image_size": "full",
+                "css_classes": "tt-rd-service-card"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "tt_rd_home_service_2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_service_widget_2",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "title_text": "Cortinas de Cristal",
+                "description_text": "Diseno limpio con perfiles minimos y una relacion visual interior exterior muy cuidada.",
+                "image_size": "full",
+                "css_classes": "tt-rd-service-card"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tt_rd_home_services_row2",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "20",
+          "bottom": "80",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "tt_rd_home_service_3",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33.33
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_service_widget_3",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "title_text": "Carpinteria Tecnica",
+                "description_text": "Soluciones de precision y estructuras de aluminio con lectura visual ligera.",
+                "image_size": "full",
+                "css_classes": "tt-rd-service-card"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "tt_rd_home_service_4",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33.33
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_service_widget_4",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "title_text": "Cerramientos de Terrazas",
+                "description_text": "Proteccion y confort para ampliar el uso real del espacio durante todo el ano.",
+                "image_size": "full",
+                "css_classes": "tt-rd-service-card"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "tt_rd_home_service_5",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33.33
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_service_widget_5",
+              "elType": "widget",
+              "widgetType": "image-box",
+              "settings": {
+                "title_text": "Mantenimientos",
+                "description_text": "Conservacion premium con revisiones y proteccion total contra el tiempo.",
+                "image_size": "full",
+                "css_classes": "tt-rd-service-card"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tt_rd_home_solutions",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "20",
+          "bottom": "90",
+          "left": "20"
+        },
+        "css_classes": "tt-rd-solutions"
+      },
+      "elements": [
+        {
+          "id": "tt_rd_home_solutions_left",
+          "elType": "column",
+          "settings": {
+            "_column_size": 45
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_solutions_kicker",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Nuestras soluciones",
+                "header_size": "div",
+                "css_classes": "tt-rd-kicker"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_home_solutions_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Transformamos tus espacios con soluciones innovadoras",
+                "header_size": "h2",
+                "css_classes": "tt-rd-editorial-title"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_home_solutions_text",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>En Tecnoterrazas ofrecemos las mas actuales soluciones para tu hogar o empresa en cerramientos de terrazas y porches para los dias dificiles todo el ano.</p>",
+                "css_classes": "tt-rd-editorial-text"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_home_solutions_img",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image_size": "full"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "tt_rd_home_solutions_right",
+          "elType": "column",
+          "settings": {
+            "_column_size": 55,
+            "padding": {
+              "unit": "px",
+              "top": "40",
+              "right": "0",
+              "bottom": "0",
+              "left": "30"
+            }
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_solutions_list",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"tt-rd-solution-list\"><div class=\"tt-rd-solution-item\"><div class=\"tt-rd-solution-number\">01</div><div class=\"tt-rd-solution-copy\"><h3>Pergolas Bioclimaticas</h3><p>Elegancia y control climatico total para tu porche o terraza.</p></div></div><div class=\"tt-rd-solution-item\"><div class=\"tt-rd-solution-number\">02</div><div class=\"tt-rd-solution-copy\"><h3>Cerramientos de Terrazas</h3><p>Disenos modernos que integran tu terraza con el interior del hogar.</p></div></div><div class=\"tt-rd-solution-item\"><div class=\"tt-rd-solution-number\">03</div><div class=\"tt-rd-solution-copy\"><h3>Cortinas de Cristal</h3><p>Vistas panoramicas sin perfiles verticales. Transparencia total.</p></div></div><div class=\"tt-rd-solution-item\"><div class=\"tt-rd-solution-number\">04</div><div class=\"tt-rd-solution-copy\"><h3>Carpinteria de Aluminio</h3><p>Puertas, ventanas y estructuras metalicas a medida.</p></div></div><div class=\"tt-rd-solution-item\"><div class=\"tt-rd-solution-number\">05</div><div class=\"tt-rd-solution-copy\"><h3>Vallas y Cercados</h3><p>Seguridad y privacidad con disenos contemporaneos para tu parcela.</p></div></div></div>",
+                "css_classes": "tt-rd-list-widget"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tt_rd_home_process",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": "90",
+          "right": "20",
+          "bottom": "90",
+          "left": "20"
+        },
+        "background_background": "classic",
+        "background_color": "#17315f",
+        "css_classes": "tt-rd-process"
+      },
+      "elements": [
+        {
+          "id": "tt_rd_home_process_title_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_process_kicker",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Como trabajamos",
+                "header_size": "div",
+                "css_classes": "tt-rd-kicker"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_home_process_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Entusiasmo y responsabilidad en cada detalle tecnico",
+                "header_size": "h2",
+                "css_classes": "tt-rd-process-title"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tt_rd_home_process_steps",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "20",
+          "bottom": "90",
+          "left": "20"
+        },
+        "background_background": "classic",
+        "background_color": "#17315f"
+      },
+      "elements": [
+        {
+          "id": "tt_rd_home_step_1",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33.33
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_step_counter_1",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 1,
+                "prefix": "0",
+                "title": "",
+                "css_classes": "tt-rd-process-step"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_home_step_title_1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Consulta inicial",
+                "header_size": "h3",
+                "css_classes": "tt-rd-process-step"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_home_step_text_1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Escuchamos tus ideas y necesidades para definir el proyecto con cercania y criterio tecnico.</p>",
+                "css_classes": "tt-rd-process-step"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "tt_rd_home_step_2",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33.33
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_step_counter_2",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 2,
+                "prefix": "0",
+                "title": "",
+                "css_classes": "tt-rd-process-step"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_home_step_title_2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Diseno personalizado",
+                "header_size": "h3",
+                "css_classes": "tt-rd-process-step"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_home_step_text_2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Definimos una solucion a tu medida, integrando funcionalidad, estetica y durabilidad.</p>",
+                "css_classes": "tt-rd-process-step"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "tt_rd_home_step_3",
+          "elType": "column",
+          "settings": {
+            "_column_size": 33.33
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_step_counter_3",
+              "elType": "widget",
+              "widgetType": "counter",
+              "settings": {
+                "starting_number": 0,
+                "ending_number": 3,
+                "prefix": "0",
+                "title": "",
+                "css_classes": "tt-rd-process-step"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_home_step_title_3",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Ejecucion maestra",
+                "header_size": "h3",
+                "css_classes": "tt-rd-process-step"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_home_step_text_3",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Instalacion precisa con control total de acabados para lograr un resultado impecable y duradero.</p>",
+                "css_classes": "tt-rd-process-step"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tt_rd_home_testimonials",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding": {
+          "unit": "px",
+          "top": "90",
+          "right": "20",
+          "bottom": "20",
+          "left": "20"
+        },
+        "css_classes": "tt-rd-testimonials"
+      },
+      "elements": [
+        {
+          "id": "tt_rd_home_testimonials_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_testimonials_kicker",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Testimonios",
+                "header_size": "div",
+                "css_classes": "tt-rd-kicker"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_home_testimonials_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Lo que dicen nuestros clientes",
+                "header_size": "h2",
+                "css_classes": "tt-rd-editorial-title"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tt_rd_home_testimonials_content",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "gap": "extended",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "20",
+          "bottom": "90",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "tt_rd_home_testimonials_left",
+          "elType": "column",
+          "settings": {
+            "_column_size": 60
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_testimonial_box",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"tt-rd-testimonial-stack\"><article class=\"tt-rd-quote-card is-primary\"><div class=\"tt-rd-stars\">★★★★★</div><p>Acudi a Tecnoterrazas y he obtenido una cortina de cristal a un precio inigualable, con un optimo servicio de instalacion y asesoria.</p><div class=\"tt-rd-quote-meta\">Pedro R. - Cliente Valencia</div></article><article class=\"tt-rd-quote-card is-light\"><div class=\"tt-rd-stars\">★★★★★</div><p>Respondieron todas mis dudas y preguntas, con lo que pude seleccionar el tipo mas adecuado de cortina de cristal que requiere mi casa.</p><div class=\"tt-rd-quote-meta\">Maria Jose. - Cliente particular</div></article></div>",
+                "css_classes": "tt-rd-testimonial-box"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "tt_rd_home_testimonials_right",
+          "elType": "column",
+          "settings": {
+            "_column_size": 40
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_testimonial_img",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image_size": "full",
+                "align": "center"
+              },
+              "elements": []
+            },
+            {
+              "id": "tt_rd_home_rating_title",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"tt-rd-rating-box\"><div class=\"tt-rd-rating-value\">5.0</div><div class=\"tt-rd-stars\">★★★★★</div><div class=\"tt-rd-rating-meta\">Valoracion media certificada</div><a href=\"#tt-form-presupuesto\" class=\"tt-rd-rating-cta\">Unete a nuestros clientes</a></div>",
+                "css_classes": "tt-rd-rating-box"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tt_rd_home_contact",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "content_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "20",
+          "bottom": "90",
+          "left": "20"
+        },
+        "css_classes": "tt-rd-contact-split"
+      },
+      "elements": [
+        {
+          "id": "tt_rd_home_form_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_form_sc",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"tt-rd-form-card\">\n    <h2 class=\"tt-rd-form-title\">Solicita tu presupuesto</h2>\n    <p class=\"tt-rd-form-subtitle\">Sin compromiso. Te responderemos en menos de 24 horas laborables.</p>\n    <form class=\"tt-rd-form\" action=\"/\" method=\"POST\">\n        <div class=\"tt-rd-form-row\">\n            <div class=\"tt-rd-form-group\">\n                <label for=\"tt-rd-nombre\">Nombre</label>\n                <input type=\"text\" id=\"tt-rd-nombre\" name=\"nombre\" placeholder=\"Juan Pérez\" required>\n            </div>\n            <div class=\"tt-rd-form-group\">\n                <label for=\"tt-rd-movil\">Móvil</label>\n                <input type=\"tel\" id=\"tt-rd-movil\" name=\"movil\" placeholder=\"+34 000 000 000\">\n            </div>\n        </div>\n        <div class=\"tt-rd-form-group\">\n            <label for=\"tt-rd-email\">Email</label>\n            <input type=\"email\" id=\"tt-rd-email\" name=\"email\" placeholder=\"tu@email.com\" required>\n        </div>\n        <div class=\"tt-rd-form-group\">\n            <label for=\"tt-rd-desc\">Descripción del proyecto</label>\n            <textarea id=\"tt-rd-desc\" name=\"descripcion\" rows=\"6\" placeholder=\"Medidas aproximadas, ubicación, producto...\"></textarea>\n        </div>\n        <div class=\"tt-rd-form-check\">\n            <label><input type=\"checkbox\" name=\"privacy_policy\" value=\"1\" required> He leído y acepto la Política de Privacidad y el aviso legal.</label>\n        </div>\n        <button type=\"button\" class=\"tt-rd-form-button\" onclick=\"alert('Formulario estático. Debes procesar el envío con tu backend.');\">Solicitar presupuesto gratuito</button>\n    </form>\n</div>"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "tt_rd_home_contact_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50
+          },
+          "elements": [
+            {
+              "id": "tt_rd_home_contact_sc",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<div class=\"tt-rd-contact-card\">\n    <div class=\"tt-rd-contact-overlay\"></div>\n    <div class=\"tt-rd-contact-inner\">\n        <div class=\"tt-rd-contact-kicker\">Ubícanos</div>\n        <h3>Estamos en Valencia</h3>\n        <ul>\n            <li><span class=\"dashicons dashicons-location\"></span> Calle Alicante, 10 B - 46910 Sedaví, Valencia</li>\n            <li><span class=\"dashicons dashicons-email-alt\"></span> administracion@tecnoterrazas.com</li>\n            <li><span class=\"dashicons dashicons-phone\"></span> 672 634 271</li>\n        </ul>\n    </div>\n</div>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "TT Redesign - Home",
+  "type": "page"
+}

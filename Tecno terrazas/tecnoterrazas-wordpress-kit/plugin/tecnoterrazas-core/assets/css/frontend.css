@@ -1,0 +1,289 @@
+:root {
+  --tt-primary: #1d3766;
+  --tt-primary-deep: #11284e;
+  --tt-accent: #4ea4f0;
+  --tt-white: #ffffff;
+  --tt-surface: #f7f8fb;
+  --tt-border: rgba(17, 40, 78, 0.14);
+  --tt-text: #22304a;
+  --tt-muted: #6b7486;
+  --tt-font: "Montserrat", sans-serif;
+  --tt-radius: 12px;
+  --tt-shadow: 0 18px 50px rgba(11, 26, 54, 0.12);
+  --tt-transition: 180ms ease;
+}
+
+.tt-projects-wrapper,
+.tt-form-presupuesto {
+  font-family: var(--tt-font);
+  color: var(--tt-text);
+}
+
+.tt-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.85rem;
+  margin: 0 auto 2rem;
+  padding: 0 1rem 1.25rem;
+  border-bottom: 1px solid var(--tt-border);
+}
+
+.tt-filter-btn {
+  background: none;
+  border: 0;
+  color: var(--tt-muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  padding: 0.5rem 0.2rem;
+  position: relative;
+  text-transform: uppercase;
+  transition: color var(--tt-transition);
+}
+
+.tt-filter-btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 2px;
+  background: var(--tt-accent);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform var(--tt-transition);
+}
+
+.tt-filter-btn.active,
+.tt-filter-btn:hover {
+  color: var(--tt-primary-deep);
+}
+
+.tt-filter-btn.active::after,
+.tt-filter-btn:hover::after {
+  transform: scaleX(1);
+}
+
+.tt-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.tt-project-card {
+  background: #0d1526;
+  border-radius: 0;
+  min-height: 25rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.tt-project-link {
+  color: inherit;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  height: 100%;
+  text-decoration: none;
+}
+
+.tt-project-image {
+  background-position: center;
+  background-size: cover;
+  min-height: 21rem;
+  position: relative;
+}
+
+.tt-project-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(11, 15, 30, 0.08), rgba(11, 15, 30, 0.72));
+}
+
+.tt-no-image {
+  background: linear-gradient(135deg, #32476f, #172748);
+}
+
+.tt-project-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: end;
+  margin-top: -5rem;
+  padding: 0 1.25rem 1.25rem;
+  position: relative;
+  z-index: 1;
+}
+
+.tt-project-title {
+  color: var(--tt-white);
+  font-size: 1.35rem;
+  font-weight: 400;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.tt-project-ver {
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.tt-grid-feedback {
+  color: var(--tt-muted);
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.tt-load-more-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.tt-btn-load-more,
+.tt-btn-submit {
+  background: transparent;
+  border: 1px solid var(--tt-primary);
+  border-radius: 999px;
+  color: var(--tt-primary);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 0.95rem 2rem;
+  text-transform: uppercase;
+  transition: all var(--tt-transition);
+}
+
+.tt-btn-load-more:hover,
+.tt-btn-submit:hover {
+  background: var(--tt-primary);
+  color: var(--tt-white);
+}
+
+.tt-form-presupuesto {
+  background: var(--tt-white);
+}
+
+.tt-form-title {
+  color: var(--tt-primary);
+  font-size: clamp(2rem, 3vw, 3.25rem);
+  font-weight: 300;
+  line-height: 1.1;
+  margin: 0 0 0.75rem;
+}
+
+.tt-form-subtitle {
+  color: var(--tt-muted);
+  font-size: 1rem;
+  margin: 0 0 2rem;
+  max-width: 32rem;
+}
+
+.tt-form-row {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.tt-form-group {
+  margin-bottom: 1.25rem;
+}
+
+.tt-form-group label {
+  color: var(--tt-primary-deep);
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.55rem;
+  text-transform: uppercase;
+}
+
+.tt-form-group input,
+.tt-form-group textarea {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--tt-border);
+  border-radius: 0;
+  color: var(--tt-text);
+  font: inherit;
+  padding: 0.85rem 0;
+  width: 100%;
+}
+
+.tt-form-group textarea {
+  min-height: 9rem;
+  resize: vertical;
+}
+
+.tt-form-group input:focus,
+.tt-form-group textarea:focus {
+  border-color: var(--tt-accent);
+  outline: none;
+}
+
+.tt-form-check label {
+  color: var(--tt-muted);
+  display: flex;
+  font-size: 0.82rem;
+  font-weight: 400;
+  gap: 0.6rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.tt-btn-submit {
+  border-radius: 0;
+  padding-inline: 2.5rem;
+}
+
+.tt-form-message {
+  margin-top: 1rem;
+  padding: 0.9rem 1rem;
+}
+
+.tt-form-message.tt-success {
+  background: #ebf7f0;
+  color: #1c6b43;
+}
+
+.tt-form-message.tt-error {
+  background: #fff0f0;
+  color: #9b2f2f;
+}
+
+.tt-honeypot {
+  display: none !important;
+}
+
+@media (max-width: 1024px) {
+  .tt-projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .tt-projects-grid,
+  .tt-form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .tt-project-card {
+    min-height: 21rem;
+  }
+
+  .tt-project-image {
+    min-height: 18rem;
+  }
+
+  .tt-filters {
+    justify-content: flex-start;
+  }
+}
